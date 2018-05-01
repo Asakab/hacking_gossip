@@ -1,7 +1,7 @@
-<h1>Nouveau Gossip</h1>
+<h1> Dis-nous tout!</h1>
 
 
-<h2>Dis-nous tout!</h2>
+
 
 <%= form_tag gossips_path, method: "post" do %><br><br>
 
@@ -9,6 +9,6 @@ Ton pseudo "anonyme" : <br>
  <%= text_field_tag 'anonymous_author', @anonymous_author %><br><br><br>
 
  Ta rumeur: <br>
- <%= text_field_tag 'content', @content %><br>
+ <%= text_field_tag 'content', @content %><br><br>
  <%= submit_tag 'Créer' %>
 <% end %>
