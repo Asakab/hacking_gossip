@@ -1,27 +1,37 @@
-# README
+# Gossip app
 
-## lien production Heroku: https://morning-anchorage-54449.herokuapp.com/
+Faire son premier CRUD : Create, Read, Update, Destroy. Nous allons faire une plateforme où les moussaillons peuvent balancer des ragots anonymement, et évidemment mettre cette plateforme en production sur Heroku : https://morning-anchorage-54449.herokuapp.com/
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+## Les étapes. (nous ne sommes pas allés jusqu'au bout malgré les 2 jours intenses passés sur le projet.. Donnez-nous le secret please :'( )
 
-Things you may want to cover.
+* Creation de model et controller
 
-* Ruby version
+* Mise en forme de la page home
 
-* System dependencies
+* New, Create & Show
 
-* Configuration
+* Edit
 
-* Database creation
+* Index
 
-* Database initialization
+* Les commentaires
 
-* How to run the test suite
+### Installation
 
-* Services (job queues, cache servers, search engines, etc.)
+Ouvrir le dossier via le terminal:
 
-* Deployment instructions
+```
+bundle install --without production
+```
 
-* ...
-# hacking_gossip
+
+
+
+
+
+## Contributeurs:
+
+
+* @Abdel : http://github/com/Aitbali
+
+* @Asak : http://github/com/Asakab
