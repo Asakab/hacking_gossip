@@ -9,9 +9,10 @@ class GossipsController < ApplicationController
   end
 
   def create
-  	@gossip = Gossip.new(anonymous_author: params["anonymous_author"], content: params["content"])
- 
-    @gossip.save 
+  	@gossip = Gossip.create(anonymous_author: params[:anonymous_author], content: params[:content])
+       @gossip.save 
+        #redirect_to gossips_path(@gossip.id)
+     end
     
 
    # @gossip.anonymous_author = params[:name]
@@ -19,8 +20,7 @@ class GossipsController < ApplicationController
     #@gossip.save
     #redirect_to ?
 
-  end 
- 
+
 
   def show
   end
