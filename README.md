@@ -4,7 +4,7 @@ Faire son premier CRUD : Create, Read, Update, Destroy. Nous allons faire une pl
 
 ## Les étapes. 
 
-#### Nous ne sommes pas allés jusqu'au bout malgré les 2 jours intenses passés sur le projet.. Donnez-nous le secret 😭 )
+#### Nous ne sommes pas allés jusqu'au bout malgré les 2 jours intenses passés sur le projet.. Donnez-nous le secret 😭 
 
 * Creation de model et controller
 
