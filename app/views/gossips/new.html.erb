@@ -1,10 +1,10 @@
 <h1>Nouveau Gossip</h1>
 
 
-<form class ="form" action="/new" method="post">
+
+<%= form_tag gossips_path, method: "post" do %><br>
 <input type="hidden" name="authenticity_token" value="<%= form_authenticity_token %>">
-    Balance ton gossip!</br>
     <textarea placeholder="dis-nous tout.."></textarea></br>
     <input class="summit" type="submit" value="Envoyer">
 
-</form>
+<%end%>
