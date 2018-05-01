@@ -10,6 +10,7 @@ class GossipsController < ApplicationController
 
   def create
   	@gossip = Gossip.new(anonymous_author: params["anonymous_author"], content: params["content"])
+ 
     @gossip.save 
     
 
