@@ -9,9 +9,9 @@ class GossipsController < ApplicationController
   end
 
   def create
-  	@gossip = Gossip.create(anonymous_author: params[:anonymous_author], content: params[:content])
+  	@gossip = Gossip.new(anonymous_author: params[:anonymous_author], content: params[:content])
        @gossip.save 
-        #redirect_to gossips_path(@gossip.id)
+       # redirect_to gossips_path
      end
     
 
@@ -23,5 +23,6 @@ class GossipsController < ApplicationController
 
 
   def show
+  	# @gossip = Gossip.find(params[:id])
   end
 end
