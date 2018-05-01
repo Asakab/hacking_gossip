@@ -17,7 +17,7 @@ Faire son premier CRUD : Create, Read, Update, Destroy. Nous allons faire une pl
 
 * Index
 
-* Les commentaires
+* Les commentaires (les modèles ont été créés et associés, et ça s'arrête là 😞)
 
 ### Installation
 
