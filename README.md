@@ -1,6 +1,7 @@
 # Gossip app
 
-Faire son premier CRUD : Create, Read, Update, Destroy. Nous allons faire une plateforme où les moussaillons peuvent balancer des ragots anonymement, et évidemment mettre cette plateforme en production sur Heroku : https://morning-anchorage-54449.herokuapp.com/
+Faire son premier CRUD : Create, Read, Update, Destroy. Nous allons faire une plateforme où les moussaillons peuvent balancer des ragots anonymement, et évidemment mettre cette plateforme en production sur 
+### Heroku : https://morning-anchorage-54449.herokuapp.com/
 
 ## Les étapes. 
 
